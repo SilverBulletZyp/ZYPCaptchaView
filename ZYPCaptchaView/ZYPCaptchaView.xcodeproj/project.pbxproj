@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D10430C31DB0897C00D82964 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D10430C21DB0897C00D82964 /* main.m */; };
+		D10430C61DB0897C00D82964 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D10430C51DB0897C00D82964 /* AppDelegate.m */; };
+		D10430C91DB0897C00D82964 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D10430C81DB0897C00D82964 /* ViewController.m */; };
+		D10430CC1DB0897C00D82964 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D10430CA1DB0897C00D82964 /* Main.storyboard */; };
+		D10430CE1DB0897C00D82964 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D10430CD1DB0897C00D82964 /* Assets.xcassets */; };
+		D10430D11DB0897C00D82964 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D10430CF1DB0897C00D82964 /* LaunchScreen.storyboard */; };
+		D10430DB1DB089EA00D82964 /* ZYPCaptchaView.m in Sources */ = {isa = PBXBuildFile; fileRef = D10430DA1DB089EA00D82964 /* ZYPCaptchaView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D10430BE1DB0897C00D82964 /* ZYPCaptchaView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYPCaptchaView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D10430C21DB0897C00D82964 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D10430C41DB0897C00D82964 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D10430C51DB0897C00D82964 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D10430C71DB0897C00D82964 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D10430C81DB0897C00D82964 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D10430CB1DB0897C00D82964 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D10430CD1DB0897C00D82964 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D10430D01DB0897C00D82964 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D10430D21DB0897C00D82964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D10430D91DB089EA00D82964 /* ZYPCaptchaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYPCaptchaView.h; sourceTree = "<group>"; };
+		D10430DA1DB089EA00D82964 /* ZYPCaptchaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYPCaptchaView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D10430BB1DB0897C00D82964 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D10430B51DB0897C00D82964 = {
+			isa = PBXGroup;
+			children = (
+				D10430C01DB0897C00D82964 /* ZYPCaptchaView */,
+				D10430BF1DB0897C00D82964 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D10430BF1DB0897C00D82964 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D10430BE1DB0897C00D82964 /* ZYPCaptchaView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D10430C01DB0897C00D82964 /* ZYPCaptchaView */ = {
+			isa = PBXGroup;
+			children = (
+				D10430D81DB089BD00D82964 /* ZYPCaptchaView */,
+				D10430C41DB0897C00D82964 /* AppDelegate.h */,
+				D10430C51DB0897C00D82964 /* AppDelegate.m */,
+				D10430C71DB0897C00D82964 /* ViewController.h */,
+				D10430C81DB0897C00D82964 /* ViewController.m */,
+				D10430CA1DB0897C00D82964 /* Main.storyboard */,
+				D10430CD1DB0897C00D82964 /* Assets.xcassets */,
+				D10430CF1DB0897C00D82964 /* LaunchScreen.storyboard */,
+				D10430D21DB0897C00D82964 /* Info.plist */,
+				D10430C11DB0897C00D82964 /* Supporting Files */,
+			);
+			path = ZYPCaptchaView;
+			sourceTree = "<group>";
+		};
+		D10430C11DB0897C00D82964 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D10430C21DB0897C00D82964 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D10430D81DB089BD00D82964 /* ZYPCaptchaView */ = {
+			isa = PBXGroup;
+			children = (
+				D10430D91DB089EA00D82964 /* ZYPCaptchaView.h */,
+				D10430DA1DB089EA00D82964 /* ZYPCaptchaView.m */,
+			);
+			path = ZYPCaptchaView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D10430BD1DB0897C00D82964 /* ZYPCaptchaView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D10430D51DB0897C00D82964 /* Build configuration list for PBXNativeTarget "ZYPCaptchaView" */;
+			buildPhases = (
+				D10430BA1DB0897C00D82964 /* Sources */,
+				D10430BB1DB0897C00D82964 /* Frameworks */,
+				D10430BC1DB0897C00D82964 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYPCaptchaView;
+			productName = ZYPCaptchaView;
+			productReference = D10430BE1DB0897C00D82964 /* ZYPCaptchaView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D10430B61DB0897C00D82964 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = zhaoyunpeng;
+				TargetAttributes = {
+					D10430BD1DB0897C00D82964 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D10430B91DB0897C00D82964 /* Build configuration list for PBXProject "ZYPCaptchaView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D10430B51DB0897C00D82964;
+			productRefGroup = D10430BF1DB0897C00D82964 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D10430BD1DB0897C00D82964 /* ZYPCaptchaView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D10430BC1DB0897C00D82964 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D10430D11DB0897C00D82964 /* LaunchScreen.storyboard in Resources */,
+				D10430CE1DB0897C00D82964 /* Assets.xcassets in Resources */,
+				D10430CC1DB0897C00D82964 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D10430BA1DB0897C00D82964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D10430C91DB0897C00D82964 /* ViewController.m in Sources */,
+				D10430DB1DB089EA00D82964 /* ZYPCaptchaView.m in Sources */,
+				D10430C61DB0897C00D82964 /* AppDelegate.m in Sources */,
+				D10430C31DB0897C00D82964 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D10430CA1DB0897C00D82964 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D10430CB1DB0897C00D82964 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D10430CF1DB0897C00D82964 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D10430D01DB0897C00D82964 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D10430D31DB0897C00D82964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D10430D41DB0897C00D82964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D10430D61DB0897C00D82964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZYPCaptchaView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhaoyunpeng.ZYPCaptchaView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D10430D71DB0897C00D82964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZYPCaptchaView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhaoyunpeng.ZYPCaptchaView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D10430B91DB0897C00D82964 /* Build configuration list for PBXProject "ZYPCaptchaView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D10430D31DB0897C00D82964 /* Debug */,
+				D10430D41DB0897C00D82964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D10430D51DB0897C00D82964 /* Build configuration list for PBXNativeTarget "ZYPCaptchaView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D10430D61DB0897C00D82964 /* Debug */,
+				D10430D71DB0897C00D82964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D10430B61DB0897C00D82964 /* Project object */;
+}
